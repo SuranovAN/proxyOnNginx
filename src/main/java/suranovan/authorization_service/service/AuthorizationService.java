@@ -1,9 +1,9 @@
-package suranovan.authorization_service.myapp.service;
+package suranovan.authorization_service.service;
 
-import suranovan.authorization_service.myapp.authorities.Authorities;
-import suranovan.authorization_service.myapp.exception.InvalidCredentials;
-import suranovan.authorization_service.myapp.exception.UnauthorizedUser;
-import suranovan.authorization_service.myapp.repository.UserRepository;
+import suranovan.authorization_service.authorities.Authorities;
+import suranovan.authorization_service.exception.InvalidCredentials;
+import suranovan.authorization_service.exception.UnauthorizedUser;
+import suranovan.authorization_service.repository.UserRepository;
 
 import java.util.List;
 

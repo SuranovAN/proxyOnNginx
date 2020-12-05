@@ -1,12 +1,12 @@
-package suranovan.authorization_service.myapp.controller;
+package suranovan.authorization_service.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver;
-import suranovan.authorization_service.myapp.exception.InvalidCredentials;
-import suranovan.authorization_service.myapp.exception.UnauthorizedUser;
+import suranovan.authorization_service.exception.InvalidCredentials;
+import suranovan.authorization_service.exception.UnauthorizedUser;
 
 @ControllerAdvice
 public class ExceptionController extends ExceptionHandlerExceptionResolver {

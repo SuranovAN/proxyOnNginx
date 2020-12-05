@@ -1,8 +1,8 @@
-package suranovan.authorization_service.myapp.controller;
+package suranovan.authorization_service.controller;
 
 import org.springframework.web.bind.annotation.*;
-import suranovan.authorization_service.myapp.authorities.Authorities;
-import suranovan.authorization_service.myapp.service.AuthorizationService;
+import suranovan.authorization_service.authorities.Authorities;
+import suranovan.authorization_service.service.AuthorizationService;
 
 import java.util.List;
 

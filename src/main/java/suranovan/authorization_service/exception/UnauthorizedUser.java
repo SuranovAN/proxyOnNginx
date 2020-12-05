@@ -1,4 +1,4 @@
-package suranovan.authorization_service.myapp.exception;
+package suranovan.authorization_service.exception;
 
 public class UnauthorizedUser extends RuntimeException {
     public UnauthorizedUser(String msg) {

@@ -1,7 +1,7 @@
-package suranovan.authorization_service.myapp.repository;
+package suranovan.authorization_service.repository;
 
-import suranovan.authorization_service.myapp.authorities.Authorities;
-import suranovan.authorization_service.myapp.model.User;
+import suranovan.authorization_service.authorities.Authorities;
+import suranovan.authorization_service.model.User;
 
 import java.util.Collections;
 import java.util.List;

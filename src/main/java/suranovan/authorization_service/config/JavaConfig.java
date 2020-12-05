@@ -1,9 +1,9 @@
-package suranovan.authorization_service.myapp.config;
+package suranovan.authorization_service.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import suranovan.authorization_service.myapp.repository.UserRepository;
-import suranovan.authorization_service.myapp.service.AuthorizationService;
+import suranovan.authorization_service.repository.UserRepository;
+import suranovan.authorization_service.service.AuthorizationService;
 
 @Configuration
 public class JavaConfig {

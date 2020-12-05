@@ -1,4 +1,4 @@
-package suranovan.authorization_service.myapp.model;
+package suranovan.authorization_service.model;
 
 public class User {
     private String name;
